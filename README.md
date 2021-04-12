@@ -20,7 +20,7 @@ Basicaly, any class of set A will extends the Bridge and implement the methods o
 And, of course, the implementators (the guys from the set B), each of them, will have the full set of tools required by any bridge to do its work. The bridge A will require some methods or whatever, the bridge B other methods, and so on.
 
 ## StateMachine
-State machine is suitable to choose always the correct behavior of an object to all possible paths depending on its own state. If for each state of the object there will be a  different behavior and possibly a change of state when an action is taken, so the state machine is the perfect design to you.
+State machine is suitable to choose always the correct behavior of an object to all possible paths depending on its own state. If for each state of the object there will be a  different behavior and possibly a change of state when an action is taken, then this design is gonna suits perfectly to you.
 
 Basically, you can build a table to represent all the states of an object by crossing the States and the Actions. So, if your 'machine' can have 5 states and also can have 4 actions, then you will have to handle 5x4 = 20 different paths. If you do it using ifs or switches, believe me, it's gonna be a nightmare and highly prone to error.
 
