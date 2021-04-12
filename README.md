@@ -31,7 +31,10 @@ Basicaly, any class of set A will extends the Bridge and implement the methods o
 And, of course, the implementators (the guys from the set B), each of them, will have the full set of tools required by any bridge to do its work. The bridge A will require some methods or whatever, the bridge B other methods, and so on.
 
 ## StateMachine
-State machine is suitable to choose always the correct response to all possible paths depending on the state of the object. The more state the object have, and if for each state of the object it's required a different behavior when it's hitted, so the state machine is the perfect design to you.
+State machine is suitable to choose always the correct behavior of an object to all possible paths depending on its own state. The more states the object have, and if for each state of the object it's required a different behavior when it's hitted, so the state machine is the perfect design to you.
+
+Basically, you can build a table to represent all the states of an object by crossing the States and the Actions. So, if your 'machine' can have 5 states and also can have 4 actions, then you will have to handle 5x4 = 20 different paths. If you do it using ifs or switches, believe me, it's gonna be a nightmare.
+
 
 ## LogChain
 This pattern is basically a pattern of the type PIPE, that you can use to do any log you like (to a file, to the console, to an API, to an email, etc.) by just calling a single line of code. You log once, the application log in every log you put in the PIPE.
