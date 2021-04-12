@@ -17,9 +17,9 @@ Basicaly, any class of set A will extends the Bridge and implement the methods o
 
 ```
  public abstract class Bridge<Resource, Product>
-    {
+ {
         protected readonly Resource resource;
-
+        
         public Bridge(Resource resource)
         {
             this.resource = resource;
