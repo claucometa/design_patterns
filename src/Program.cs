@@ -11,6 +11,7 @@ namespace Claucometa.DesignPatterns
         // Bridge.Program.Run();
         // await new Pipe.Program().Run();
         // Money.Program.Run();
+        // Adapter.Program.Run();
 
         static async Task Main(string[] args)
         {

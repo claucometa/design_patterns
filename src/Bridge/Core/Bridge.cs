@@ -1,14 +1,14 @@
 ﻿namespace Claucometa.DesignPatterns.Bridge
 {
-    public abstract class Bridge<T, R>
+    public abstract class Bridge<Resource, Product>
     {
-        protected readonly T resource;
+        protected readonly Resource resource;
 
-        public Bridge(T resource)
+        public Bridge(Resource resource)
         {
             this.resource = resource;
         }
 
-        public abstract R Build();
+        public abstract Product Build();
     }
 }
