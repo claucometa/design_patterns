@@ -33,7 +33,7 @@ And, of course, the implementators (the guys from the set B), each of them, will
 ## StateMachine
 State machine is suitable to choose always the correct behavior of an object to all possible paths depending on its own state. The more states the object have, and if for each state of the object it's required a different behavior when it's hitted, so the state machine is the perfect design to you.
 
-Basically, you can build a table to represent all the states of an object by crossing the States and the Actions. So, if your 'machine' can have 5 states and also can have 4 actions, then you will have to handle 5x4 = 20 different paths. If you do it using ifs or switches, believe me, it's gonna be a nightmare and very prone to error.
+Basically, you can build a table to represent all the states of an object by crossing the States and the Actions. So, if your 'machine' can have 5 states and also can have 4 actions, then you will have to handle 5x4 = 20 different paths. If you do it using ifs or switches, believe me, it's gonna be a nightmare and highly prone to error.
 
 
 ## LogChain
