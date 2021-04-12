@@ -38,3 +38,11 @@ Basically, you can build a table to represent all the states of an object by cro
 
 ## LogChain
 This pattern is basically a pattern of the type PIPE, that you can use to do any log you like (to a file, to the console, to an API, to an email, etc.) by just calling a single line of code. You log once, the application log in every log you put in the PIPE.
+
+## Adapter
+
+The adapter code is self explanatory. Usually, it's a class that hides the real implementation of another class, just to simplify or obey the protocol / interface of the client (or a lot of clients).
+
+![image](https://user-images.githubusercontent.com/7969024/114332153-ff9f8a00-9b1b-11eb-8f43-f6eaec3917b2.png)
+
+
