@@ -15,7 +15,7 @@ The bridge pattern is suitable to intersect a set of classes A (bridges) to a se
 
 Basicaly, any class of set A will extends the Bridge and implement the methods of the bridge, in this case, only the Build. And any bridge can accept any resource, being the resource simply an interface. So, when you instanciate a bridge, you just call the "real" resource in the constructor of the bridge.
 
-![image](https://user-images.githubusercontent.com/7969024/114333380-8d7c7480-9b1e-11eb-9792-073d93b38b17.png)
+![image](https://user-images.githubusercontent.com/7969024/114333535-e77d3a00-9b1e-11eb-967a-23891cc7a683.png)
 
 And, of course, the implementators (the guys from the set B), each of them, will have the full set of tools required by any bridge to do its work. The bridge A will require some methods or whatever, the bridge B other methods, and so on.
 
@@ -32,7 +32,7 @@ This pattern is basically a pattern of the type PIPE, that you can use to do any
 
 The adapter code is self explanatory. Usually, it's a class that hides the differences of operation of another class or interface to simplify / obey the protocol / interface that the clients are used to.
 
-![image](https://user-images.githubusercontent.com/7969024/114332649-fe229180-9b1c-11eb-91cf-439d7105fc89.png)
+![image](https://user-images.githubusercontent.com/7969024/114333380-8d7c7480-9b1e-11eb-9792-073d93b38b17.png)
 
 The chainned method's has nothing to do with adapter. Just did it to look cooler in the picture.
 
