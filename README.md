@@ -28,6 +28,6 @@ Basicaly, any class of set A will extends the Bridge and implement the methods o
         public abstract Product Build();
 }
 ```
-
+And, of course, the implementators (the guys from the set B), each of them, will have all the necessary tools required by the bridge to to its work. The bridge A will require some methods, the bridge B other methods, and so on.
 
 
