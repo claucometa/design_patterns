@@ -22,7 +22,7 @@ And, of course, the implementators (the guys from the set B), each of them, will
 ## StateMachine
 It's suitable when you need to choose the correct behavior of an object when someone interacts with it and the behavior can change depending on the action taken and the response taken to the action.
 
-To help to map all the states and actions of the object you can build a table and put the states and actions in each axis. So, if your 'machine' can have 5 states and also can have 4 actions, then you will have to handle 5x4 = 20 different paths. If you do it using ifs or switches, believe me, it's gonna be a nightmare and highly prone to error.
+To help to map all the states and actions of the object you can build a table and put the states and actions in each "axes". So, if your 'machine' can have 5 states and also can have 4 actions, then you will have to handle 5x4 = 20 different paths. If you do it using ifs or switches, believe me, it's gonna be a nightmare and highly prone to error.
 
 
 ## LogChain
