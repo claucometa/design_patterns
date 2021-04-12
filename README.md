@@ -41,7 +41,7 @@ This pattern is basically a pattern of the type PIPE, that you can use to do any
 
 ## Adapter
 
-The adapter code is self explanatory. Usually, it's a class that hides the differences of operation of another class to simplify / obey the protocol / interface that the clients are used to.
+The adapter code is self explanatory. Usually, it's a class that hides the differences of operation of another class or interface to simplify / obey the protocol / interface that the clients are used to.
 
 ![image](https://user-images.githubusercontent.com/7969024/114332649-fe229180-9b1c-11eb-91cf-439d7105fc89.png)
 
