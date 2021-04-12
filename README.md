@@ -45,6 +45,6 @@ The adapter code is self explanatory. Usually, it's a class that hides the diffe
 
 ![image](https://user-images.githubusercontent.com/7969024/114332649-fe229180-9b1c-11eb-91cf-439d7105fc89.png)
 
-The chainned method's has nothing to do with adapter. Just did it to look cooler.
+The chainned method's has nothing to do with adapter. Just did it to look cooler in the picture.
 
 
