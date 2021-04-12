@@ -43,6 +43,8 @@ This pattern is basically a pattern of the type PIPE, that you can use to do any
 
 The adapter code is self explanatory. Usually, it's a class that hides the real implementation of another class, just to simplify or obey the protocol / interface of the client (or a lot of clients).
 
-![image](https://user-images.githubusercontent.com/7969024/114332153-ff9f8a00-9b1b-11eb-8f43-f6eaec3917b2.png)
+![image](https://user-images.githubusercontent.com/7969024/114332649-fe229180-9b1c-11eb-91cf-439d7105fc89.png)
+
+The chainned method's has nothing to do with adapter. Just did it to look cooler.
 
 
